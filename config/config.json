@@ -1,0 +1,21 @@
+//TODO: specifiy the database credentials
+{
+  "development": {
+    "username": "username",
+    "password": "password",
+    "database": "database",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "username",
+    "password": "password",
+    "database": "database",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "PRODUCTION_DATABASE_ENV_VARIABLE"
+  }
+
+}
